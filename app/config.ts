@@ -8,7 +8,7 @@ export const metaData = {
 };
 
 export const socialLinks = {
-  twitter: "https://x.com/1tssirius",
+  gitlab: "https://gitlab.com/potaHere",
   github: "https://github.com/potaHere",
   instagram: "https://www.instagram.com/jafar_shodiq14",
   linkedin: "https://www.linkedin.com/in/ja-far-shodiq-669a67222",
