@@ -7,7 +7,6 @@ export interface Project {
   location: string;
   locationtype: string;
   description: string;
-  // url: string;
 }
 
 export const projects: Project[] = [
@@ -20,8 +19,7 @@ export const projects: Project[] = [
     location: "Malang, East Java, Indonesia",
     locationtype: "Onsite",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    // url: "https://example.com/",
+      "During my internship at the Social Economic Accelerator Lab (SEAL), I served as a Cloud Engineer, contributing to the development of cloud-based solutions for the agriculture and healthcare sectors. I played a key role in building the Smartfarming application, an IoT-powered monitoring system that enables real-time agricultural field analysis. This opportunity allowed me to enhance my skills in DevOps practices, database management, and system architecture, while refining my ability to tackle complex technical challenges and optimize cloud-based systems effectively.",
   },
   {
     role: "Cloud Computing Cohort",
@@ -32,7 +30,6 @@ export const projects: Project[] = [
     location: "",
     locationtype: "Online",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    // url: "https://example.com/",
+      "As a participant in Bangkit Academy, I gained comprehensive expertise in Cloud Computing through a rigorous program supported by leading industry partners. The experience included hands-on projects that applied advanced concepts to real-world challenges, fostering technical proficiency, problem-solving, and teamwork. This transformative journey not only enhanced my adaptability and collaboration skills but also prepared me to contribute effectively to innovative and impactful tech projects.",
   },
 ];

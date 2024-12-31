@@ -32,11 +32,11 @@ export default function Page() {
         </p>
         <p>
         Connect with me on{" "}
-          <a href="https://github.com/potaHere" target="_blank">
+          <a href="https://github.com/potaHere" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>{" "}
           and{" "}
-          <a href="https://www.linkedin.com/in/ja-far-shodiq-669a67222" target="_blank">
+          <a href="https://www.linkedin.com/in/ja-far-shodiq-669a67222" target="_blank" rel="noopener noreferrer">
             Linkedin
           </a>{" "}
           to explore my projects or get in touch!

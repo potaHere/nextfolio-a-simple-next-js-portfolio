@@ -15,14 +15,13 @@ export default function Projects() {
         {projects.map((project, index) => (
           <a
             key={index}
-            // href={project.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="block group hover:opacity-80 transition-opacity duration-200"
+            className="block group hover:opacity-80 transition-opacity duration-200 mb-12"
           >
             <div className="flex flex-col">
               <div className="w-full flex justify-between items-baseline">
-                <span className="text-black dark:text-white font-medium tracking-tight text-xl">
+                <span className="text-black dark:text-white font-medium tracking-tight text-m">
                   {project.role}
                 </span>
                 <span className="text-neutral-600 dark:text-neutral-400 tabular-nums text-sm">
@@ -35,7 +34,7 @@ export default function Projects() {
               <span className="text-neutral-500 dark:text-neutral-300 text-sm">
                 {project.company} {" "}<br></br>{" "} {project.location}
               </span>
-              <p className="prose prose-neutral dark:prose-invert pt-3">
+              <p className="prose prose-neutral dark:prose-invert pt-3 text-justify">
                 {project.description}
               </p>
             </div>
