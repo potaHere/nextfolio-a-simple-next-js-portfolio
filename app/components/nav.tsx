@@ -5,7 +5,7 @@ import { metaData } from "../config";
 const navItems = {
   "/projects": { name: "Projects" },
   "/experience": { name: "Experience" },
-  "/photos": { name: "Photos" },
+  // "/photos": { name: "Photos" },
 };
 
 export function Navbar() {
