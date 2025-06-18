@@ -17,12 +17,12 @@ export default function Page() {
       </a>
 
       <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Full Stack Developer!
+        Software Engineer
       </h1>
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          Hi there! I am Ja'far Shodiq, a passionate and dedicated Full Stack Developer
+          Hi there! I am Ja'far Shodiq, a passionate and dedicated Software Engineer
           with expertise in cloud computing, machine learning, web development, and design.
         </p>
         <p>

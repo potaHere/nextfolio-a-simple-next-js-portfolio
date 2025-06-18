@@ -40,6 +40,17 @@ export default function BlogPosts() {
             </Link>
           ))}
       </div>
+      <p className="text-neutral-500 dark:text-neutral-300 text-sm">
+        You can also check out my{" "}
+        <a
+          href="https://github.com/potaHere"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>{" "}
+        for more projects!
+      </p>
     </section>
   );
 }

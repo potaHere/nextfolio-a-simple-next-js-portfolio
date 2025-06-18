@@ -11,6 +11,17 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    role: "AI Engineer Cohort",
+    employmenttype: "Bootcamp",
+    startdate: "Feb 2025",
+    enddate: "Jun 2025",
+    company: "Laskar AI",
+    location: "",
+    locationtype: "Online",
+    description:
+      "Participated in an intensive AI bootcamp focused on machine learning, deep learning, and data science. Gained hands-on experience with Python, Scikit-learn, and TensorFlow through real-world projects. Collaborated on a capstone project to build an AI solution, strengthening my skills in data analysis, model development, and teamwork.",
+  },
+  {
     role: "Cloud Engineer",
     employmenttype: "Internship",
     startdate: "Sep 2024",
