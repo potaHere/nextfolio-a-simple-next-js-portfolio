@@ -26,9 +26,9 @@ function CustomLink(props) {
   return <a target="_blank" rel="noopener noreferrer" {...props} />;
 }
 
-function RoundedImage({ layout, ...props }) {
-  // shortcut: strips legacy Next.js 12 `layout` prop; remove when all MDX is updated
-  return <Image alt={props.alt} className="rounded-lg" {...props} />;
+function RoundedImage({ layout, ...props }: React.ComponentProps<typeof Image> & { layout?: string }) {
+  // strips legacy Next.js 12 `layout` prop which breaks Next.js 14 Image
+  return <Image className="rounded-lg" {...props} />;
 }
 
 function Code({ children, ...props }) {
