@@ -26,7 +26,8 @@ function CustomLink(props) {
   return <a target="_blank" rel="noopener noreferrer" {...props} />;
 }
 
-function RoundedImage(props) {
+function RoundedImage({ layout, ...props }) {
+  // shortcut: strips legacy Next.js 12 `layout` prop; remove when all MDX is updated
   return <Image alt={props.alt} className="rounded-lg" {...props} />;
 }
 
@@ -125,6 +126,8 @@ export function CustomMDX(props) {
       {...props}
       components={{ ...components, ...(props.components || {}) }}
       options={{
+        // blockJS strips JSX attribute expressions like width={100}; safe to disable for trusted MDX files
+        blockJS: false,
         mdxOptions: {
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
